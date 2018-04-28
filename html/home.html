@@ -3,16 +3,84 @@
       <h1>Welcome</h1>
       <div ng-if="!lightsout" class="jumbotron text-center">
         <h1><b>Benjamin Huang</b></h1>
-        <h2><b>Full-Stack JavaScript Developer</b></h2>
+        <h2><b>Computer Science and Mathematics Educator</b></h2>
       </div>
       <h1 ng-if="lightsout"><b>Benjamin Huang</b></h1>
-      <h2 ng-if="lightsout"><b>Full-Stack JavaScript Developer</b></h2>
+      <h2 ng-if="lightsout"><b>Computer Science and Mathematics Educator</b></h2>
 
-      <p>benjaminthuang@gmail.com</p>
+      <p><b>benjaminthuang@gmail.com | 650-430-4207 | Sunnyvale, CA </b></p>
       <a href="https://github.com/CoolConfucius" target="_blank">github.com/CoolConfucius</a><br>
       <a href="https://www.linkedin.com/in/benjamin-t-huang/" target="_blank">linkedin.com/in/benjamin-t-huang</a>
     </div>
     <br>
+    
+    <div class="centerblock">
+      <h2 class="centertext">Education </h2>
+      <h4><b>National University</b>, San Jose, CA</h4>
+      <p><i>Current student in Master of Edutation with Single Subject Teaching Credential program. </i></p>
+      <p><i>GPA: 4.0 - CBEST (2017) - CSET Math Subtest I (2018)</i></p>
+      
+      <h4><b>Coding Dojo</b>, Certificate, San Jose, CA, <b>2016</b></h4>
+      <p><i>Student. </i>Worked 490 to 630 hours. Studied the MEAN stack in depth and trained by building independent projects. Solved algorithms and data structure challenges regularly. </p>
+
+      <h4><b>Coding Dojo</b>, Certificate, San Jose, CA, <b>2016</b></h4>
+      <p><i>Student. </i>Worked 490 to 630 hours. Studied the MEAN stack in depth and trained by building independent projects. Solved algorithms and data structure challenges regularly. </p>
+      
+      <h4><b>Coding House</b>, Fremont, CA, <b>2015, 2016</b></h4>
+      <p><i>Student. </i>Worked 1120 to 1792 hours: attending lectures, solving coding challenges, working on solo and group projects, and participating in hackathons. Technologies practiced include: JavaScript, HTML, CSS, Git, jQuery, Bootstrap, Node, Express, Angular, MongoDB, React, Firebase. </p>
+
+      <h4><b>Santa Clara University</b>, Santa Clara, CA, <b>2015</b></h4>
+      <ul>
+        <li><i>BS in Computer Science, Minor in Creative Writing, GPA: 3.671</i></li>
+        <li><i>Part of Kappa Delta Pi Education Honors Society</i></li>
+        <li><i>Part of Pi Mu Epsilon Computing Honors Society</i></li>
+        <li><i>Teaching Assistant and Grader, Founder of SCU Peer Support</i></li>
+      </ul>
+      <h4><b>Computer Science / Engineering Coursework:</b></h4><p><i>Mobile Web Development, Programming Languages, Theory of Algorithms, Data Structures, Object Oriented Programming </i></p> 
+      <b>VP of SCU's Interfaith Council</b>
+      <ul><li>Made presentations and facilitated discussions</li></ul>
+      <b>Peer Educator of Life Writing</b>
+      <ul>
+        <li>Lead a small group, gave students feedback on their writing, facilitated discussions</li>
+      </ul>
+    </div>
+
+    <!-- <div class="centerblock centertext"> -->
+    <div class="centerblock">
+      <h2 class="centertext">Experience </h2>
+      <h4><b><i>Full-Stack Web Developer</i></b></h4>
+      <span><b>Young Professional Council</b>, San Jose, CA: <b>April 2017- Present</b></span>
+      <p>Collaborated with other developers in a Scrum environment. Worked on a non-profit website: </p>
+      <ul>
+        <li>Fixed bugs and wrote documentation</li>
+        <li>Took on a leadership role in the development team </li>
+        <li>Coached other developers </li>
+        <li>Used technologies such as: Angular, jQuery, EJS, Node, MongoDB, and Git</li>
+        <li>Implemented the user authentication and edit web page feature </li>
+        <li>Improved website functionality  </li>
+        <li>GitHub Repository:  <a href="https://github.com/CoolConfucius/meantemplateypc">github.com/CoolConfucius/meantemplateypc</a> </li>
+      </ul>
+
+      <h4><b><i>IOT Developer Intern</i></b></h4>
+      <span><b>SAP</b>, Palo Alto, CA: <b>April 2016 - October 2016</b></span>
+      <p>Worked on development and quality assurance tasks for IOT projects:</p>
+      <ul>
+        <li>Wrote NodeJS scripts</li>
+        <li>Did HTML CSS styling</li>
+        <li>Found and reported bugs in applications </li>
+        <li>Kept track of product needs and development progress in an Agile Scrum environment.</li>
+      </ul>
+
+      <h4><b><i>Code Mentor</i></b></h4>
+      <span><b>Coding House</b>, Fremont, CA: <b>February 2016 - April 2016</b></span>
+      <ul>
+        <li>Mentored a cohort of students </li>
+        <li>Evaluated students’ projects and gave them feedback</li>
+        <li>Took lecture notes for students and assisted them on their projects</li>
+        <li>Worked on two major MEAN stack projects</li>
+      </ul>
+    </div>
+
     <div class="centerblock">
       <table class="table">
         <thead>
@@ -73,59 +141,6 @@
       <button ng-if="allprojects" ng-click="toggleprojects()" class="btn btn-warning btn-sm">Show Less Projects</button>
       <ul>
         <li>
-          <a href="https://storiesepic.herokuapp.com/" target="_blank">
-            <h4>Collaborative Stories</h4>
-          </a>
-          <p>Users can start stories and add snippets to stories.</p>
-
-          <div class="detail">
-            <ul>
-              <li>Solo project</li>
-              <li>Built in MEAN Stack with gulp, bcrypt, and sweetalert.</li>
-            </ul>
-            <br>
-          </div>
-
-          <a href="https://github.com/CoolConfucius/stories-epic" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
-        </li>
-
-        <li>
-          <a href="https://autovision.herokuapp.com/" target="_blank">
-            <h4>Autovision</h4>
-          </a>
-
-          <p>A marketplace app for buying and selling auto parts.</p>
-
-          <div class="detail">
-            <ul>
-              <li>Group project</li>
-              <li>Responsible for developing the server side and client side logic and user authentication.</li>
-              <li>Built in MEAN Stack with AWS, Mailgun, and bcrypt.</li>
-            </ul>
-            <br>
-          </div>
-          <a href="https://github.com/909socal/autovision-epic" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
-        </li>
-  
-        <li>
-          <a href="https://linkarchives.herokuapp.com/" target="_blank">
-            <h4>Link Archives</h4>
-          </a>
-          <p>An app that helps users collect and organize URLs.</p>
-
-          <div class="detail">
-            <ul>
-              <li>Solo project</li>
-              <li>Built in MEAN Stack with bcrypt.</li>
-            </ul>
-            <br>
-          </div>
-
-          <a href="https://github.com/CoolConfucius/linkarchives" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
-        </li>
-
-        
-        <li>
           <a href="http://coolconfucius.github.io/BlackJack21/" target="_blank">
             <h4>Single Player Blackjack 21 against AI in jQuery</h4>
           </a>
@@ -146,6 +161,89 @@
           <p class="detail">Two 10x10 grids. User places 5 ships of lengths—2, 3, 3, 4, 5 squares—onto their grid. May place the ships horizontally or vertically. On the other grid, the AI has 5 ships of the same lengths placed randomly. All ships must be within their grids and not overlap. AI’s ships are hidden from the user.  User and AI take turns hitting a square on each other’s grid. When a ship is hit, the square is marked as hit. Else, the square is marked as miss. The player who sinks all their opponent’s ships wins.</p>
           <a href="https://github.com/CoolConfucius/BattleShip" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
         </li>
+
+        <li>
+          <a href="https://storiesepic.herokuapp.com/" target="_blank">
+            <h4>Collaborative Stories</h4>
+          </a>
+          <p>Users can start stories and add snippets to stories.</p>
+
+          <div class="detail">
+            <ul>
+              <li>Solo project</li>
+              <li>Built in MEAN Stack with gulp, bcrypt, and sweetalert.</li>
+            </ul>
+            <br>
+          </div>
+
+          <a href="https://github.com/CoolConfucius/stories-epic" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
+        </li>
+
+        <li ng-if="allprojects">
+          <a href="https://autovision.herokuapp.com/" target="_blank">
+            <h4>Autovision</h4>
+          </a>
+
+          <p>A marketplace app for buying and selling auto parts.</p>
+
+          <div class="detail">
+            <ul>
+              <li>Group project</li>
+              <li>Responsible for developing the server side and client side logic and user authentication.</li>
+              <li>Built in MEAN Stack with AWS, Mailgun, and bcrypt.</li>
+            </ul>
+            <br>
+          </div>
+          <a href="https://github.com/909socal/autovision-epic" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
+        </li>
+  
+        <li>
+          <a href="http://coolconfucius.github.io/vanillaCalculator/" target="_blank">
+            <h4>Calculator in jQuery</h4>
+          </a>
+          <a href="https://github.com/CoolConfucius/vanillaCalculator" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
+          <p class="detail">Does addition, subtraction, multiplication, and division operations. Can insert decimal numbers and toggle between positive and negative numbers. Allows chain operations. </p>
+        </li>
+        <li>
+          <a href="http://coolconfucius.github.io/MemoryMatchGame/" target="_blank">
+            <h4>Memory Match Game in jQuery</h4>
+          </a>
+          <p class="detail">16 cards faced down. Each card has a matching pair. Click a card to flip it. Win by finding all the matches.</p>
+          <a href="https://github.com/CoolConfucius/MemoryMatchGame" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
+        </li>
+        
+        <li>
+          <a href="http://coolconfucius.github.io/TicTacToe2/" target="_blank">
+            <h4>Two Player Tic Tac Toe in jQuery</h4>
+          </a>
+          <p class="detail">In a 3x3 grid, two users, take turns marking their symbol on the grid by clicking. The user who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins. </p>
+          <a href="https://github.com/CoolConfucius/TicTacToe2" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
+        </li>
+        <li ng-if="allprojects">
+          <a href="https://starwarscollector.herokuapp.com/" target="_blank">
+            <h4>Star Wars Collector</h4>
+          </a>
+          <p class="detail">An app built with Firebase Authentication, Mongo, and a Star Wars API. Register, login, find your favorite Star Wars characters and add them to your collection.</p>
+          <a href="https://github.com/CoolConfucius/StarWarsCollector" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
+        </li>
+        
+        <li ng-if="allprojects">
+          <a href="https://linkarchives.herokuapp.com/" target="_blank">
+            <h4>Link Archives</h4>
+          </a>
+          <p>An app that helps users collect and organize URLs.</p>
+
+          <div class="detail">
+            <ul>
+              <li>Solo project</li>
+              <li>Built in MEAN Stack with bcrypt.</li>
+            </ul>
+            <br>
+          </div>
+
+          <a href="https://github.com/CoolConfucius/linkarchives" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
+        </li>
+        
         <li ng-if="allprojects">
           <a href="https://tranquil-lake-86813.herokuapp.com/" target="_blank">
             <h4>Full stack product list app in Firebase, Mongoose, Express, jQuery, and Jade</h4>
@@ -192,35 +290,7 @@
           <p class="detail">Uses Markit on Demand, a stock API. Users can search for symbols, add symbols, get stock information on tracked symbols, and untrack symbols. Data is stored in local storage. </p>
           <a href="https://github.com/CoolConfucius/angular-stock-tracker" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
         </li>
-        <li ng-if="allprojects">
-          <a href="http://coolconfucius.github.io/vanillaCalculator/" target="_blank">
-            <h4>Calculator in jQuery</h4>
-          </a>
-          <a href="https://github.com/CoolConfucius/vanillaCalculator" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
-          <p class="detail">Does addition, subtraction, multiplication, and division operations. Can insert decimal numbers and toggle between positive and negative numbers. Allows chain operations. </p>
-        </li>
-        <li ng-if="allprojects">
-          <a href="http://coolconfucius.github.io/MemoryMatchGame/" target="_blank">
-            <h4>Memory Match Game in jQuery</h4>
-          </a>
-          <p class="detail">16 cards faced down. Each card has a matching pair. Click a card to flip it. Win by finding all the matches.</p>
-          <a href="https://github.com/CoolConfucius/MemoryMatchGame" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
-        </li>
         
-        <li ng-if="allprojects">
-          <a href="http://coolconfucius.github.io/TicTacToe2/" target="_blank">
-            <h4>Two Player Tic Tac Toe in jQuery</h4>
-          </a>
-          <p class="detail">In a 3x3 grid, two users, take turns marking their symbol on the grid by clicking. The user who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins. </p>
-          <a href="https://github.com/CoolConfucius/TicTacToe2" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
-        </li>
-        <li ng-if="allprojects">
-          <a href="https://starwarscollector.herokuapp.com/" target="_blank">
-            <h4>Star Wars Collector</h4>
-          </a>
-          <p class="detail">An app built with Firebase Authentication, Mongo, and a Star Wars API. Register, login, find your favorite Star Wars characters and add them to your collection.</p>
-          <a href="https://github.com/CoolConfucius/StarWarsCollector" target="_blank" class="btn btn-sm" ng-class='{"btn-info": !lightsout, "btn-default": lightsout}'>View on GitHub</a>
-        </li>
 
 
         <li ng-if="allprojects">
@@ -247,65 +317,9 @@
 
 
 
-    <!-- <div class="centerblock centertext"> -->
+      <br>
     <div class="centerblock">
-      <h2 class="centertext">Experience </h2>
-      <h4><b><i>Full-Stack Web Developer</i></b></h4>
-      <span><b>Young Professional Council</b>, San Jose, CA: <b>April 2017- Present</b></span>
-      <p>Collaborated with other developers in a Scrum environment. Worked on a non-profit website: </p>
-      <ul>
-        <li>Fixed bugs and wrote documentation</li>
-        <li>Took on a leadership role in the development team </li>
-        <li>Coached other developers </li>
-        <li>Used technologies such as: Angular, jQuery, EJS, Node, MongoDB, and Git</li>
-        <li>Implemented the user authentication and edit web page feature </li>
-        <li>Improved website functionality  </li>
-        <li>GitHub Repository:  <a href="https://github.com/CoolConfucius/meantemplateypc">github.com/CoolConfucius/meantemplateypc</a> </li>
-      </ul>
-
-      <h4><b><i>IOT Developer Intern</i></b></h4>
-      <span><b>SAP</b>, Palo Alto, CA: <b>April 2016 - October 2016</b></span>
-      <p>Worked on development and quality assurance tasks for IOT projects:</p>
-      <ul>
-        <li>Wrote NodeJS scripts</li>
-        <li>Did HTML CSS styling</li>
-        <li>Found and reported bugs in applications </li>
-        <li>Kept track of product needs and development progress in an Agile Scrum environment.</li>
-      </ul>
-
-      <h4><b><i>Code Mentor</i></b></h4>
-      <span><b>Coding House</b>, Fremont, CA: <b>February 2016 - April 2016</b></span>
-      <ul>
-        <li>Mentored a cohort of students </li>
-        <li>Evaluated students’ projects and gave them feedback</li>
-        <li>Took lecture notes for students and assisted them on their projects</li>
-        <li>Worked on two major MEAN stack projects</li>
-      </ul>
-
-      <h2 class="centertext">Education </h2>
-      <h4><b>Coding Dojo</b>, Certificate, San Jose, CA, <b>2016</b></h4>
-      <p><i>Student. </i>Worked 490 to 630 hours. Studied the MEAN stack in depth and trained by building independent projects. Solved algorithms and data structure challenges regularly. </p>
-      
-      <h4><b>Coding House</b>, Fremont, CA, <b>2015, 2016</b></h4>
-      <p><i>Student. </i>Worked 1120 to 1792 hours: attending lectures, solving coding challenges, working on solo and group projects, and participating in hackathons. Technologies practiced include: JavaScript, HTML, CSS, Git, jQuery, Bootstrap, Node, Express, Angular, MongoDB, React, Firebase. </p>
-
-      <h4><b>Santa Clara University</b>, Santa Clara, CA, <b>2015</b></h4>
-      <ul>
-        <li><i>BS in Computer Science, Minor in Creative Writing, GPA: 3.69</i></li>
-        <li><i>Part of Pi Mu Epsilon Computing Honors Society</i></li>
-        <li><i>Teaching Assistant and Grader, Founder of SCU Peer Support</i></li>
-      </ul>
-      <h4><b>Relevant Coursework:</b></h4><p><i>Mobile Web Development, Programming Languages, Theory of Algorithms, Data Structures, Object Oriented Programming </i></p> 
-      
-      <br>
-      <h4 class="centertext"><b>Leadership Experience</b></h4>
-      <h4><b>VP of SCU’s Interfaith Council</b></h4>
-      <p>Made presentations and facilitated discussions</p>
-      <h4><b>Peer Educator of Life Writing</b></h4>
-      <p>Lead a small group, gave students feedback on their writing, facilitated discussions</p>
-
-      <br>
-      <h4 class="centertext"><b>Volunteer</b></h4>
+      <h3 class="centertext"><b>Educational Volunteer Experiences</b></h3>
       <p><b>The Blind School,</b> Taipie, Taiwan:</p>
       <p><i>Tutored English to students with disabilities</i></p>
       <p><b>Onesiphorus Children’s Home, </b>Taitung, Taiwan: </p>
@@ -315,8 +329,6 @@
       <p><i>Worked as a Teaching Assistant for a Mathematics class</i></p>
       <p><b>Bellarmine College Prep, </b>San Jose, CA: </p>
       <p><i>One-on-one tutored AP Mandarin Chinese</i></p>
-
     </div>
-
 
   </div>
